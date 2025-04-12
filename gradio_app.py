@@ -2,7 +2,7 @@ import gradio as gr
 import requests
 
 API_URL = "http://127.0.0.1:8000/predict"
-API_KEY = "f7d3243e-b3ef-472f-9e47-28cd640f5f89"
+API_KEY = ""
 
 def classify_email(email):
     response = requests.post(

@@ -16,7 +16,7 @@ logging.basicConfig(
 load_dotenv()
 
 # ✅ Read the API key after loading .env
-API_KEY = "f7d3243e-b3ef-472f-9e47-28cd640f5f89"
+API_KEY = ""
 print(f"Loaded API_KEY: {API_KEY}")  # ✅ Debug print AFTER assignment
 # ✅ Load the model using absolute path
 model_path = os.path.join(os.path.dirname(__file__), "spam_model_pipeline.joblib")
